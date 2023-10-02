@@ -1,0 +1,98 @@
+.tilt-container {
+  perspective: 1000px; /* Create a 3D perspective */
+}
+
+.tilt {
+  transform-style: preserve-3d; /* Enable 3D transformations */
+  transition: transform 0.5s ease;
+}
+
+.tilt-container:hover .tilt {
+  transform: rotateX(15deg) rotateY(15deg); /* Tilt effect on hover */
+  /* box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3); A deeper shadow for added depth */
+}
+
+.tilt-container:hover .tilt {
+  transform: rotateX(10deg) rotateY(10deg); /* Tilt effect on hover */
+  /* box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); Add a subtle shadow */
+}
+
+/* Your existing styles and classes */
+.search-bar-animation {
+  animation-duration: 1s; /* Adjust animation duration as needed */
+  animation-fill-mode: both;
+}
+
+/* Define the keyframes for fading in */
+@keyframes expand {
+  0% {
+    width: 0%;
+    opacity: 0;
+  }
+  100% {
+    width: 40%;
+    opacity: 1;
+  }
+}
+
+/* Define the keyframes for fading out */
+@keyframes contract {
+  0% {
+    width: 40%;
+    opacity: 1;
+  }
+  100% {
+    width: 0;
+    opacity: 0;
+  }
+}
+
+/* Apply the animation to elements with the class "fade-in" */
+.fade-in {
+  animation: expand 0.4s ease forwards;
+}
+
+/* Apply the animation to elements with the class "fade-out" */
+.fade-out {
+  animation: contract 0.4s ease forwards;
+}
+
+/* Define the keyframes for fading in */
+@keyframes bellIn {
+  0% {
+    width: 0%;
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+    width: 10%;
+  }
+}
+
+/* Define the keyframes for fading out */
+@keyframes bellOut {
+  0% {
+    width: 10%;
+    opacity: 1;
+  }
+  100% {
+    width: 0;
+    opacity: 0;
+  }
+}
+
+/* Apply the animation to elements with the class "fade-in" */
+.bell-in {
+  animation: bellIn 0.4s ease forwards;
+}
+
+/* Apply the animation to elements with the class "fade-out" */
+.bell-out {
+  animation: bellOut 0.4s ease forwards;
+}
+
+.tilt-container {
+  background: #dcded9;
+  background-image: radial-gradient(#22c55e 0.8px, #dcded9 0.8px) !important;
+  background-size: 16px 16px !important;
+}

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@3.7.7/dist/full.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <title>Vite + React</title>
+  </head>
+  <style>
+    h1,h2,h3,h4,h5 {
+        font-family: "Ringbearer", Apple Chancery, cursive ;
+        src: url("/home/trep/Downloads/ringbearer-font/RingbearerMedium-51mgZ.ttf");
+    }
+    
+    body {
+        font-family:  "Ringbearer",Apple Chancery, cursive ;
+        font-size: 16px;
+    }
+    p{font-size: 18px;}
+    </style>
+  <body
+    data-theme="forest"
+    style="
+      background-color: #e5e5f7;
+      opacity: 1;
+      background-image: radial-gradient(#22c55e 0.8px, #dcded9 0.8px);
+      background-size: 16px 16px;
+    "
+  >
+    <div id="root"></div>
+    <!-- <div class="container">
+        <div id="mainChart">
+        </div>
+      </div> -->
+ 
+    <script
+      type="text/javascript"
+      src="https://fastly.jsdelivr.net/npm/echarts@5.4.3/dist/echarts.min.js"
+    ></script>
+    <!-- Uncomment this line if you want to dataTool extension
+    <script type="text/javascript" src="https://fastly.jsdelivr.net/npm/echarts@5.4.3/dist/extension/dataTool.min.js"></script>
+    -->
+    <!-- Uncomment this line if you want to use gl extension
+    <script type="text/javascript" src="https://fastly.jsdelivr.net/npm/echarts-gl@2/dist/echarts-gl.min.js"></script>
+    -->
+    <!-- Uncomment this line if you want to echarts-stat extension
+    <script type="text/javascript" src="https://fastly.jsdelivr.net/npm/echarts-stat@latest/dist/ecStat.min.js"></script>
+    -->
+    <!-- Uncomment this line if you want to use map
+    <script type="text/javascript" src="https://fastly.jsdelivr.net/npm/echarts@4.9.0/map/js/china.js"></script>
+    <script type="text/javascript" src="https://fastly.jsdelivr.net/npm/echarts@4.9.0/map/js/world.js"></script>
+    -->
+    <!-- Uncomment these two lines if you want to use bmap extension
+    <script type="text/javascript" src="https://api.map.baidu.com/api?v=3.0&ak=YOUR_API_KEY"></script>
+    <script type="text/javascript" src="https://fastly.jsdelivr.net/npm/echarts@5.4.3/dist/extension/bmap.min.js"></script>
+    -->
+
+    <script type="module" src="/src/main.jsx"></script>
+    <script></script>
+  </body>
+</html>

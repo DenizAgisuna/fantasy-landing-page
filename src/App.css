@@ -1,0 +1,7 @@
+body{
+  overflow-x: hidden;
+}
+
+.card-body {
+  padding: 5% !important;
+}
