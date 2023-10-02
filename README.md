@@ -8,13 +8,13 @@ This is a simple landing page project created with the aim of making it aestheti
 
 To run this project locally, follow these instructions:
 
+```shell
 1. Clone this repository to your local machine.
 
 git clone https://github.com/your-username/landing-page.git
 
 2. Navigate to the project directory.
-
-cd landing-page
+cd fantasy-landing-page
 
 3. Install the project dependencies using npm.
 
