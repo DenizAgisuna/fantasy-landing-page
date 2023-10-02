@@ -51,5 +51,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Acknowledgments
 
-- Thanks to Matt Pocock for the inspiration for this project.
+- Thanks to Matt Pocock @ https://www.totaltypescript.com/ for the inspiration for this project
+- Thanks Raul for telling me about Matt. :)
 - Special thanks to all contributors and the open-source community for their valuable contributions and resources.
